@@ -1,0 +1,243 @@
+"ctry","name","lat","lng","pop"
+"Afghanistan","Kabul",34.528887,69.17246,4221.532
+"Algeria","Algiers",36.7525,3.04197,2767.661
+"Angola","Luanda",-8.83682,13.23432,8329.798
+"Argentina","Buenos Aires",-34.605083,-58.400368,15153.729
+"Argentina","Córdoba",-31.4135,-64.18105,1571.944
+"Argentina","Rosario",-32.94682,-60.63932,1532.128
+"Argentina","Mendoza",-32.89084,-68.82717,1172.619
+"Armenia","Yerevan",40.181998,44.514619,1086.275
+"Australia","Melbourne",-37.814,144.96332,4967.733
+"Australia","Sydney",-33.86785,151.20732,4925.987
+"Australia","Brisbane",-27.46794,153.02809,2406.182
+"Australia","Perth",-31.947841,115.852514,2041.959
+"Austria","Vienna",48.206443,16.370725,1929.944
+"Azerbaijan","Baku",40.37767,49.89201,2341.443
+"Bangladesh","Dhaka",23.7104,90.40744,21005.86
+"Bangladesh","Chittagong",22.33306,91.83639,5019.824
+"Belarus","Minsk",53.9,27.56667,2028.104
+"Belgium","Bruxelles-Brussel",50.846735,4.349919,2080.788
+"Belgium","Antwerpen",51.21989,4.40346,1042.471
+"Benin","Cotonou",6.44852,2.35566,1056.44
+"Bolivia","La Paz",-16.5,-68.15,1857.797
+"Bolivia","Santa Cruz",-17.79891,-63.169825,1712.688
+"Bolivia","Cochabamba",-17.3895,-66.1568,1303.907
+"Brazil","São Paulo",-23.5475,-46.63611,22043.028
+"Brazil","Rio de Janeiro",-22.90278,-43.2075,13458.075
+"Brazil","Belo Horizonte",-19.92083,-43.93778,6084.43
+"Brazil","Brasília",-15.77972,-47.92972,4645.843
+"Bulgaria","Sofia",42.69751,23.32415,1280.968
+"Burkina Faso","Ouagadougou",12.36423,-1.53834,2780.331
+"Burundi","Bujumbura",-3.3822,29.3644,1012.996
+"Cambodia","Phnom Penh",11.56245,104.91601,2077.757
+"Cameroon","Yaoundé",3.86667,11.51667,3992.411
+"Cameroon","Douala",4.04827,9.70428,3663.227
+"Canada","Toronto",43.70011,-79.4163,6196.731
+"Canada","Montréal",45.50884,-73.58781,4220.566
+"Canada","Vancouver",49.24966,-123.11934,2581.079
+"Canada","Calgary",51.044072,-114.059314,1547.484
+"Chad","N'Djaména",12.10672,15.0444,1422.547
+"Chile","Santiago",-33.45694,-70.64827,6767.223
+"China","Shanghai",31.22222,121.45806,27058.479
+"China","Beijing",39.9075,116.39723,20462.61
+"China","Chongqing",29.56278,106.55278,15872.179
+"China","Tianjin",39.108842,117.18862,13589.078
+"China","Hong Kong",22.279588,114.188697,7547.652
+"Taiwan","Xinbei",25.0121,121.4621,4398.383
+"Taiwan","Taibei",25.047009,121.54568,2721.485
+"Taiwan","Taoyuan",24.9936,121.2969,2245.162
+"Taiwan","Gaoxiong",22.625962,120.31546,1537.64
+"Colombia","Bogotá",4.60971,-74.08175,10978.36
+"Colombia","Medellín",6.25184,-75.56359,4000.263
+"Colombia","Cali",3.43722,-76.5225,2781.98
+"Colombia","Barranquilla",10.96389,-74.79639,2272.914
+"Congo","Brazzaville",-4.26583,15.28318,2388.09
+"Congo","Pointe-Noire",-4.77609,11.86352,1214.281
+"Costa Rica","San José",9.927817,-84.080685,1399.629
+"Côte d'Ivoire","Abidjan",5.345339,-4.026789,5202.762
+"Cuba","La Habana (Havana)",23.119541,-82.378493,2140.423
+"Czechia","Praha (Prague)",50.08804,14.42076,1305.737
+"Dem. People's Republic of Korea","P'yongyang",39.03385,125.75432,3084.244
+"Democratic Republic of the Congo","Kinshasa",-4.32758,15.31357,14342.439
+"Democratic Republic of the Congo","Mbuji-Mayi",-6.15,23.6,2525.263
+"Democratic Republic of the Congo","Lubumbashi",-11.66089,27.47938,2478.262
+"Democratic Republic of the Congo","Kananga",-5.89624,22.41659,1458.4
+"Denmark","Copenhagen",55.67594,12.56553,1346.485
+"Dominican Republic","Santo Domingo",18.489591,-69.901805,3317.784
+"Ecuador","Guayaquil",-2.16667,-79.9,2994.218
+"Ecuador","Quito",-0.22985,-78.52495,1873.763
+"Egypt","Cairo",30.039173,31.239411,20900.604
+"Egypt","Alexandria",31.192471,29.904596,5280.664
+"El Salvador","San Salvador",13.68935,-89.18718,1105.766
+"Ethiopia","Addis Ababa",9.02497,38.74689,4793.699
+"Finland","Helsinki",60.169246,24.940216,1304.851
+"France","Paris",48.85341,2.3488,11017.23
+"France","Lyon",45.74846,4.84671,1719.268
+"France","Marseille",43.528414,5.443298,1608.236
+"France","Lille",50.63297,3.05858,1063.085
+"Georgia","Tbilisi",41.69411,44.83368,1077.833
+"Germany","Berlin",52.52437,13.41053,3562.038
+"Germany","Hamburg",53.55,10,1789.954
+"Germany","Munich",48.137076,11.573377,1538.302
+"Germany","Köln",50.93333,6.95,1118.789
+"Ghana","Kumasi",6.68848,-1.62443,3348.062
+"Ghana","Accra",5.55602,-0.1969,2514.005
+"Greece","Athens",37.95342,23.74897,3153.355
+"Guatemala","Guatemala City",14.612652,-90.530746,2934.841
+"Guinea","Conakry",9.571642,-13.647602,1938.272
+"Haiti","Port-au-Prince",18.53917,-72.335,2773.553
+"Honduras","Tegucigalpa",14.0818,-87.20681,1444.085
+"Hungary","Budapest",47.49801,19.03991,1768.073
+"India","Delhi",28.66667,77.21667,30290.936
+"India","Mumbai",19.073975,72.880838,20411.274
+"India","Kolkata",22.533455,88.356045,14850.066
+"India","Bangalore",12.97194,77.59369,12326.532
+"Indonesia","Jakarta",-6.211831,106.841646,10770.487
+"Indonesia","Bekasi",-6.23827,106.975573,3394.273
+"Indonesia","Surabaya",-7.288838,112.741078,2944.403
+"Indonesia","Depok",-6.402484,106.794241,2727.209
+"Iran","Tehran",35.69439,51.42151,9134.708
+"Iran","Mashhad",36.297,59.6062,3208.336
+"Iran","Esfahan",32.65722,51.67761,2132.037
+"Iran","Shiraz",29.6036,52.5388,1651.362
+"Iraq","Baghdad",33.34058,44.40088,7144.26
+"Iraq","Mosul",36.335,43.118889,1629.932
+"Iraq","Basra",30.49721,47.81491,1352.21
+"Iraq","Kirkuk",35.468056,44.392222,1012.614
+"Ireland","Dublin",53.33306,-6.24889,1228.179
+"Israel","Tel Aviv",32.08088,34.78057,4181.48
+"Israel","Haifa",32.813261,34.991355,1147.431
+"Italy","Roma",41.894743,12.481142,4257.056
+"Italy","Milano",45.55307,9.18344,3140.181
+"Italy","Napoli",40.850178,14.259213,2186.853
+"Italy","Torino",45.068672,7.677218,1792.163
+"Japan","Tokyo",35.6895,139.69171,37393.129
+"Japan","Osaka",34.675834,135.553823,19165.34
+"Japan","Nagoya",35.18147,136.90641,9552.132
+"Japan","Kitakyushu-Fukuoka",33.6064,130.4181,5528.632
+"Jordan","Amman",31.95522,35.94503,2148.293
+"Kazakhstan","Almaty",43.247189,76.910127,1895.742
+"Kazakhstan","Astana",51.1801,71.44598,1165.983
+"Kazakhstan","Shimkent",42.3,69.6,1057.936
+"Kenya","Nairobi",-1.28333,36.81667,4734.881
+"Kenya","Mombasa",-4.05466,39.66359,1295.975
+"Kuwait","Kuwait City",29.36972,47.9783,3114.553
+"Kyrgyzstan","Bishkek",42.87,74.59,1038.429
+"Lebanon","Beirut",33.9,35.48333,2424.425
+"Liberia","Monrovia",6.30054,-10.7969,1517.235
+"Libya","Tripoli",32.87519,13.18746,1165.085
+"Madagascar","Antananarivo",-18.91368,47.53613,3368.585
+"Malawi","Lilongwe",-13.96692,33.78725,1121.72
+"Malaysia","Kuala Lumpur",3.1412,101.68653,7996.83
+"Malaysia","Johor Bahru",1.4655,103.7578,1023.9
+"Mali","Bamako",12.65,-8,2617.686
+"Mauritania","Nouakchott",18.08581,-15.9785,1314.636
+"Mexico","Mexico City",19.427318,-99.141869,21782.378
+"Mexico","Guadalajara",20.66667,-103.33333,5179.479
+"Mexico","Monterrey",25.66667,-100.31667,4874.095
+"Mexico","Puebla",19.041532,-98.204962,3194.848
+"Mongolia","Ulaanbaatar",47.90771,106.88324,1584.358
+"Morocco","Casablanca",33.59278,-7.61916,3752.357
+"Morocco","Rabat",34.01325,-6.83255,1884.802
+"Morocco","Fès",34.03715,-4.9998,1224.08
+"Morocco","Tanger",35.784722,-5.812778,1197.923
+"Mozambique","Matola",-25.96222,32.45889,1705.886
+"Mozambique","Maputo",-25.96528,32.58917,1110.477
+"Myanmar","Yangon",16.80528,96.15611,5331.8
+"Myanmar","Mandalay",21.97473,96.08359,1437.554
+"Nepal","Kathmandu",27.70169,85.3206,1423.515
+"Netherlands","Amsterdam",52.37403,4.88969,1148.972
+"Netherlands","Rotterdam",51.9225,4.47917,1010.026
+"New Zealand","Auckland",-36.86667,174.76667,1606.564
+"Nicaragua","Managua",12.13282,-86.2504,1063.698
+"Niger","Niamey",13.51366,2.1098,1291.848
+"Nigeria","Lagos",6.45306,3.39583,14368.332
+"Nigeria","Kano",12.00012,8.51672,3999.05
+"Nigeria","Ibadan",7.38778,3.89639,3551.961
+"Nigeria","Abuja",9.05735,7.48976,3277.74
+"Norway","Oslo",59.91273,10.74609,1041.378
+"Oman","Muscat",23.61387,58.5922,1549.729
+"Pakistan","Karachi",24.9056,67.0822,16093.786
+"Pakistan","Lahore",31.549722,74.343611,12642.423
+"Pakistan","Faisalabad",31.416667,73.083333,3462.295
+"Pakistan","Rawalpindi",33.6,73.066667,2236.905
+"Panama","Panama City",8.995816,-79.519572,1860.291
+"Paraguay","Asunción",-25.30066,-57.63591,3336.562
+"Peru","Lima",-12.04318,-77.02824,10719.188
+"Philippines","Manila",14.6042,120.9822,13923.452
+"Philippines","Davao City",7.073854,125.612487,1825.45
+"Poland","Warsaw",52.22977,21.01178,1783.251
+"Portugal","Lisbon",38.71686,-9.139867,2956.879
+"Portugal","Porto",41.14961,-8.61099,1312.947
+"Puerto Rico","San Juan",18.46633,-66.10572,2448.417
+"Republic of Korea","Seoul",37.56826,126.97783,9963.452
+"Republic of Korea","Busan",35.10278,129.04028,3465.19
+"Republic of Korea","Incheon",37.45361,126.73167,2801.039
+"Republic of Korea","Daegu",35.87028,128.59111,2198.962
+"Romania","Bucharest",44.432787,26.104302,1803.247
+"Russian Federation","Moscow",55.754996,37.621849,12537.954
+"Russian Federation","Saint Petersburg",59.929858,30.326228,5467.808
+"Russian Federation","Novosibirsk",55.0415,82.9346,1663.748
+"Russian Federation","Yekaterinburg",56.8575,60.6125,1503.812
+"Rwanda","Kigali",-1.947364,30.057897,1132.101
+"Saudi Arabia","Riyadh",24.690466,46.709566,7231.447
+"Saudi Arabia","Jiddah",21.51694,39.21917,4610.176
+"Saudi Arabia","Mecca",21.417368,39.815855,2042.106
+"Saudi Arabia","Medina",24.463501,39.611106,1488.782
+"Senegal","Dakar",14.6937,-17.44406,3140.442
+"Serbia","Belgrade",44.817649,20.463309,1397.939
+"Sierra Leone","Freetown",8.484,-13.22994,1201.9
+"Singapore","Singapore",1.28967,103.85007,5935.053
+"Somalia","Mogadishu",2.041636,45.343492,2282.009
+"South Africa","Johannesburg",-26.20227,28.04363,5782.747
+"South Africa","Cape Town",-33.92584,18.42322,4617.56
+"South Africa","Ekurhuleni",-26.25,28.33,3894.262
+"South Africa","Durban",-29.8579,31.0292,3158.313
+"Spain","Madrid",40.4165,-3.70256,6617.513
+"Spain","Barcelona",41.38879,2.15899,5585.556
+"Sudan","Khartoum",15.55177,32.53241,5828.858
+"Sweden","Stockholm",59.33258,18.0649,1632.798
+"Switzerland","Zürich",47.35785,8.50296,1395.356
+"Syrian Arab Republic","Damascus",33.508586,36.308444,2392.045
+"Syrian Arab Republic","Aleppo",36.213611,37.157141,1916.781
+"Syrian Arab Republic","Homs",34.731809,36.718125,1335.804
+"Thailand","Bangkok",13.721964,100.525248,10539.415
+"Thailand","Chon Buri",13.361125,100.988319,1398.645
+"Thailand","Samut Prakan",13.59934,100.59675,1306.937
+"Thailand","Chiang Mai",18.79038,98.98468,1166.978
+"Togo","Lomé",6.13748,1.21227,1827.878
+"Tunisia","Tunis",36.81897,10.16579,2365.201
+"Turkey","Istanbul",41.0138,28.9497,15190.336
+"Turkey","Ankara",39.91987,32.85427,5117.603
+"Turkey","Izmir",38.41273,27.13838,2992.953
+"Turkey","Bursa",40.19167,29.06111,1986.268
+"Uganda","Kampala",0.31628,32.58219,3298.364
+"Ukraine","Kyiv",50.445368,30.518634,2988.176
+"Ukraine","Kharkiv",49.98081,36.25272,1429.004
+"Ukraine","Odesa",46.47747,30.73262,1009.289
+"United Arab Emirates","Dubai",25.272061,55.311265,2878.344
+"United Arab Emirates","Sharjah",25.35731,55.4033,1684.649
+"United Arab Emirates","Abu Dhabi",24.464778,54.361781,1482.816
+"United Kingdom","London",51.50853,-0.12574,9304.016
+"United Kingdom","Manchester",53.48095,-2.23743,2730.076
+"United Kingdom","Birmingham",52.4814,-1.8998,2607.437
+"United Kingdom","West Yorkshire",53.798431,-1.764855,1889.095
+"United Republic of Tanzania","Dar es Salaam",-6.82349,39.26951,6701.65
+"United Republic of Tanzania","Mwanza",-2.51667,32.9,1120.43
+"United States of America","New York",40.717042,-74.003663,18803.552
+"United States of America","Los Angeles",34.031656,-118.241716,12446.597
+"United States of America","Chicago",41.85003,-87.65005,8865.009
+"United States of America","Houston",29.7601927,-95.3693896,6370.704
+"Uruguay","Montevideo",-34.83346,-56.16735,1752.388
+"Uzbekistan","Tashkent",41.26465,69.21627,2517.381
+"Venezuela","Caracas",10.48801,-66.87919,2938.992
+"Venezuela","Maracaibo",10.63167,-71.64056,2257.999
+"Venezuela","Valencia",10.16202,-68.00765,1910.188
+"Venezuela","Barquisimeto",10.07389,-69.32278,1214.362
+"Viet Nam","Ho Chi Minh City",10.75,106.66667,8602.317
+"Viet Nam","Hà Noi",21.0245,105.84117,4678.198
+"Viet Nam","Can Tho",10.03333,105.78333,1617.602
+"Viet Nam","Hai Phòng",20.86481,106.68345,1300.088
+"Yemen","Sana'a'",15.353115,44.20782,2972.988
+"Zambia","Lusaka",-15.413374,28.277148,2774.133
+"Zimbabwe","Harare",-17.82935,31.05389,1529.92
