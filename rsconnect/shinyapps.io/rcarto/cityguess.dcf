@@ -5,7 +5,9 @@ account: rcarto
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 5804212
-bundleId: 5655945
+bundleId: 5665741
 url: https://rcarto.shinyapps.io/cityguess/
-when: 1646735636.88007
-lastSyncTime: 1646735636.88011
+when: 1646907866.5205
+lastSyncTime: 1646907866.52051
+asMultiple: FALSE
+asStatic: FALSE

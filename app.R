@@ -4,19 +4,10 @@ library(sf)
 
 dataa <- read.csv(file = "cities.csv")
 
-
-icons <- awesomeIcons(
-  icon = 'map-pin',
-  iconColor = 'black',
-  library = 'fa',
-  markerColor = "red"
-)
-icons2 <- awesomeIcons(
-  icon = 'map-pin',
-  iconColor = 'black',
-  library = 'fa',
-  markerColor = "green"
-)
+icons = makeIcon(iconUrl = "pin.svg", iconHeight = 18,
+                 iconWidth = 18, iconAnchorX = 9, iconAnchorY = 9)
+icons2 = makeIcon(iconUrl = "pin2.svg", iconHeight = 18,
+                 iconWidth = 18, iconAnchorX = 9, iconAnchorY = 9)
 
 ui <- fluidPage(
   titlePanel(title = "Guess the city position"),
@@ -33,9 +24,7 @@ ui <- fluidPage(
     mainPanel(width=9,
               leafletOutput("map",  height = "600px", width="600px" ),
     )
-  ),
-  hr(), 
-  p("Data source: urban agglomeration from ")
+  )
 )
 
 
@@ -54,33 +43,40 @@ server <- shinyServer(function(input, output, session) {
                        options = providerTileOptions(noWrap = TRUE)) 
   })
   
-  output$ville <- renderText({ 
-    HTML(paste0("<b>", dataa[1,2], ", ", dataa[1, 1], 
+  # initial text
+  output$ville <- renderText({
+    HTML(paste0("<b>", dataa[1,2], ", ", dataa[1, 1],
                 "</b><br/><small>(", rv$n,"/20)</small>"))
   })
   
   
   
-  ## Observe mouse clicks and add circles
+  ## Observe mouse clicks 
   observeEvent(input$map_click, {
+    # restart session
     if(rv$n == 21 ){
       session$reload()
       return()
     }
     
+    # update city & clean map
     output$ville <- renderText({ 
       HTML(paste0("<b>", dataa[rv$n,2], ", ", dataa[rv$n, 1], 
                   "</b><br/><small>(", rv$n,"/20)</small>"))
     })
     leafletProxy('map') %>% removeMarker(c("1", "2"))
+    
+    
+    
     click <- input$map_click
     clat <- click$lat
     clng <- click$lng
     leafletProxy('map') %>% # use the proxy to save computation
-      addAwesomeMarkers(lng=clng, lat=clat, layerId = "1", icon = icons)
+      addMarkers(lng=clng, lat=clat, layerId = "1", icon = icons)
     
     leafletProxy('map') %>% # use the proxy to save computation
-      addAwesomeMarkers(lng=dataa[rv$n, 4], lat=dataa[rv$n, 3], layerId = "2", icon =icons2) 
+      addMarkers(lng=dataa[rv$n, 4], lat=dataa[rv$n, 3], layerId = "2", 
+                 icon =icons2) 
     
     a <- st_as_sf(data.frame(x = clng,y = clat), 
                   coords = c("x", "y"), crs = 4326)
