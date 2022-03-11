@@ -1,0 +1,6 @@
+su: ignoring --preserve-environment, it's mutually exclusive with --login
+Linking to GEOS 3.8.0, GDAL 3.0.4, PROJ 6.3.1; sf_use_s2() is TRUE
+
+Listening on http://127.0.0.1:35413
+Terminated
+
