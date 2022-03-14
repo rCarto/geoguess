@@ -1,0 +1,13 @@
+name: cityguess
+title: cityguess
+username:
+account: rcarto
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 5804212
+bundleId: 5681787
+url: https://rcarto.shinyapps.io/cityguess/
+when: 1647266810.5694
+lastSyncTime: 1647266810.56945
+asMultiple: FALSE
+asStatic: FALSE
