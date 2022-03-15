@@ -4,25 +4,20 @@
 server <- function(input, output, session) {
   vv <- sample(1:nrow(dataa), nrow(dataa), replace = FALSE)
   dataa <- dataa[vv,]
-  ad <- paste0(dataa$ctry, ", ", dataa$name)
+  ad <- paste0(dataa$name, ", ", dataa$ctry)
   ga <- substr(dataa$GAWC, 1,1)
   
   x <- (aggregate(ad, by = list(ga), head, 4))
   x <- unlist(x$x)
   x <- as.vector(x)
   dataa <- dataa[ad %in% x, ][1:20,]
-  
-  rv <- reactiveValues(n = 1, tot = 0)
-  ## Make your initial map
-  # output$map <- renderLeaflet({
-  # leaflet(land, options = leafletOptions(worldCopyJump = F, crs = crs, minZoom = 1, maxZoom = 8)) %>%  
-  #   setView(0, 40, 4) %>%
-  #   # addPolygons(fillOpacity = 1, stroke = FALSE, fillColor = "#aad3df") 
-  #   # %>%
-  #   addPolygons(data = land, stroke=FALSE, fillColor = "#f2efe9" ) %>%
-  #   addPolygons(data = lakes, fillOpacity = 1, stroke = FALSE, fillColor = "#aad3df")
-  #   # 
-  
+
+  rv <- reactiveValues(
+    n = 1, 
+    tot = 0,   
+    res = data.frame(city = paste0(dataa$name, ", ", dataa$ctry), dist=NA)
+    )
+
   output$map <- renderLeaflet({
     leaflet(options = leafletOptions(minZoom = 2, maxZoom = 6)) %>%
       setView(lng = 0, lat = 40, zoom = 4) %>%
@@ -64,9 +59,15 @@ server <- function(input, output, session) {
     rv$tot <- rv$tot + x
     showNotification(HTML(paste0("<b>", dataa[rv$n,2],": " , x, " km</b>")), 
                      type = "message")
-    rv$n <- rv$n+1
+    rv$res[rv$n, "dist"] <- x
+    
+    rv$n <- rv$n + 1
+    
     if(rv$n == 21 ){
       output$x <- renderText({ 
+        output$tatab2 <- renderDT(
+          rv$res,options = list(lengthChange = FALSE, pageLength = 5,dom="tp", order = list(list(2, 'asc')))
+        )
         output$ville <- renderText({ ""})
         HTML(paste0("<h3>Total distance: ", rv$tot, 
                     "km</h3>", 

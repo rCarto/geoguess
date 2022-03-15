@@ -1,6 +1,7 @@
 library(shiny)
 library(leaflet)
 library(sf)
+library(DT)
 
 dataa <- read.csv(file = "www/cities.csv")
 
