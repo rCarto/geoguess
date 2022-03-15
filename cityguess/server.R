@@ -1,7 +1,7 @@
 server <- function(input, output, session) {
   
   # data init
-  ncity=2
+  ncity=20
   vv <- sample(1:nrow(dataa), nrow(dataa), replace = FALSE)
   dataa <- dataa[vv,]
   ad <- paste0(dataa$name, ", ", dataa$ctry)

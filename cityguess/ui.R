@@ -12,8 +12,6 @@ ui <- fluidPage(
   ),
   fluidRow(
     HTML("</br><br><a href='https://github.com/rCarto/geoguess/'><img src='github-brands.svg' width='15px'></a>")
-    # <br><br>https://github.com/rCarto/geoguess/")
-    
   )
 )
 
