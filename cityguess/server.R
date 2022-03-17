@@ -60,13 +60,15 @@ server <- function(input, output, session) {
     showNotification(HTML(paste0("<b>", dataa[rv$n,2],": " , x, " km</b>")), 
                      type = "message", )
     # store distance
-    rv$res[rv$n, "Distance"] <- paste0(x, " km")
+    rv$res[rv$n, "Distance"] <- x
     row.names(rv$res) <- rv$res$City
     
     # next city
     rv$n <- rv$n + 1
     
     if(rv$n == ncity + 1 ){
+      rv$res <- rv$res[order(rv$res$Distance, decreasing = F),]
+      rv$res$Distance <- paste0(rv$res$Distance, " km")
       # Display
       output$x <- renderText({ 
         showModal(
@@ -80,8 +82,7 @@ server <- function(input, output, session) {
             renderDT(datatable(
               rv$res[,2,drop=F], colnames = "",
               options = list(lengthChange = FALSE,
-                             pageLength = 5,dom="tp", 
-                             order = list(list(1, 'asc')))
+                             pageLength = 5,dom="tp")
             ))
           ))
         output$ville <- renderText({""})
