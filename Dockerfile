@@ -20,3 +20,5 @@ RUN apt-get update && apt-get install -y \
 
 
 RUN install2.r --error sf leaflet
+
+RUN install2.r --error DT
