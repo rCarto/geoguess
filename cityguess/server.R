@@ -3,13 +3,13 @@ server <- function(input, output, session) {
   # data init
   ncity=20
   vv <- sample(1:nrow(dataa), nrow(dataa), replace = FALSE)
-  dataa <- dataa[vv,]
-  ad <- paste0(dataa$name, ", ", dataa$ctry)
-  ga <- substr(dataa$GAWC, 1,1)
-  x <- aggregate(ad, by = list(ga), head, 4)
-  x <- unlist(x$x)
-  x <- as.vector(x)
-  dataa <- dataa[ad %in% x, ][1:ncity,]
+  dataa <- dataa[vv,][1:ncity,]
+  # ad <- paste0(dataa$name, ", ", dataa$ctry)
+  # ga <- substr(dataa$GAWC, 1,1)
+  # x <- aggregate(ad, by = list(ga), head, 4)
+  # x <- unlist(x$x)
+  # x <- as.vector(x)
+  # dataa <- dataa[ad %in% x, ][1:ncity,]
   rv <- reactiveValues(
     n = 1, 
     tot = 0,   
@@ -58,9 +58,9 @@ server <- function(input, output, session) {
     rv$tot <- rv$tot + x
     # Display distance
     showNotification(HTML(paste0("<b>", dataa[rv$n,2],": " , x, " km</b>")), 
-                     type = "message")
+                     type = "message", )
     # store distance
-    rv$res[rv$n, "Distance"] <- x
+    rv$res[rv$n, "Distance"] <- paste0(x, " km")
     row.names(rv$res) <- rv$res$City
     
     # next city
@@ -72,13 +72,13 @@ server <- function(input, output, session) {
         showModal(
           modalDialog(
             footer = actionButton("rst", "New Game", icon = icon("globe") ),
-            title = HTML(paste0("<b>Total distance: ", rv$tot,"km !</b>")),
-            size = "m", 
+            title = HTML(paste0("<b>Total distance: ", rv$tot," km !</b>")),
+            size = "s", 
             easyClose = FALSE,
             fade = FALSE,
             label ="resultats",
             renderDT(datatable(
-              rv$res[,2,drop=F],
+              rv$res[,2,drop=F], colnames = "",
               options = list(lengthChange = FALSE,
                              pageLength = 5,dom="tp", 
                              order = list(list(1, 'asc')))
