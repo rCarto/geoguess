@@ -1,4 +1,7 @@
+# original image
 FROM rocker/shiny-verse:latest
+
+# needed libraries (spatial and internet stuff)
 RUN apt-get update && apt-get install -y \
     sudo \
     pandoc \
@@ -11,14 +14,17 @@ RUN apt-get update && apt-get install -y \
     libcurl4-openssl-dev \
     libxml2-dev \
     libudunits2-0 \
-    libudunits2-dev
-RUN apt-get update && apt-get install -y \
+    libudunits2-dev \
 	libgdal-dev \
 	libgeos-dev \
 	libproj-dev \
 	libfontconfig1-dev
+	
+# install relevant R packages  
+RUN install2.r --error sf leaflet DT
 
+# clean apps in the shiny app folder
+RUN rm -rf /srv/shiny-server/*
 
-RUN install2.r --error sf leaflet
-
-RUN install2.r --error DT
+# copy the app 
+COPY cityguess /srv/shiny-server/
